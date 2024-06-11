@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/login.css">
+    <title>Форма авторизации</title>
+</head>
+<body>
+    <div class="burger-menu">
+        <div class="navbar">
+            <div class="hamburger-icon" onclick="toggleMenu()">&#9776;</div>
+            <div class="menu">
+              <a class="menu-redaction" href="./authentification.html">Регистрация</a>
+              <a class="menu-redaction" href="./Basket.html">Корзина</a>
+              <a class="menu-redaction" href="./main.html">Каталог</a>
+            </div>
+          </div>
+    </div>
+    <div class="auth__wrapper container">
+        <div class="auth-cont">
+            <a class="auth-main" href="./main.html">Главная</a>
+            <h1 class="auth-text">Авторизация</h1>
+            <div class="form-field">
+                <input class="mail mail1" type="email" id="email" placeholder="Электронная почта" required>
+                <span class="error"></span>
+            </div>
+            <div class="form-field">
+                <input class="password1" type="password" id="password" placeholder="Пароль" required>
+                <span class="error"></span>
+            </div>
+            <button class="button2" onclick="login()">Войти</button>
+            <div class="button_wrapper">
+                <span>Еще не зарегистрированы?</span>
+                <button class="button" id="registerButton">Регистрация</button>
+            </div>
+        </div>
+      
+    </div>
+    <script src="/JS/form.js"></script>
+    <script src="/JS/authentifications.js"></script>
+    <script src="/JS/login.js"></script>
+</body>
+</html>

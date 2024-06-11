@@ -1,0 +1,98 @@
+.auth__wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #716c6c;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+
+  .auth-text {
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #595757;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .button_wrapper {
+    margin-top: 10px;
+  }
+  
+  span {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .auth-main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .auth-cont {
+    display: flex;
+    flex-direction: column;
+    padding:10px 0;
+  }
+  
+  @media(max-width:600px) and (min-width:200px) {
+    .burger-menu {
+        display: block;
+      }
+
+      .burger {
+        display: fixed;
+        flex-direction: column;
+        cursor: pointer;
+      }
+
+      .burger-menu {
+        display: fixed;
+        color: #ffffff;
+        position: relative;
+        left: 150px;
+        top: 2px;
+      }
+
+      .burger {
+        width: 30px;
+        height: 30px;
+        z-index: 1;
+        cursor: pointer;
+      }
+      
+  }

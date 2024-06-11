@@ -1,0 +1,404 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #333;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  left: 200px;
+}
+
+.auth__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #626269;
+  border-radius: 10px;
+  width: 300px;
+  height: 390px;
+}
+
+.button2 {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background-color: #333;
+  color: #000000;
+}
+
+.burger-menu {
+  display: none;
+}
+
+.auth-main {
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+}
+
+.form {
+}
+
+.auth-text-main {
+  color: #fff;
+  font-size:25px;
+  text-decoration: none;
+}
+
+.form-reg {
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  text-align: center;
+  align-items: center;
+}
+
+.mail {
+  position: relative;
+  right:10px;
+}
+
+.password1 {
+  position: relative;
+  right:10px;
+}
+
+.emaillink {
+  color: #fff;
+}
+
+.passwordlink {
+  color: #ffffff;
+}
+
+.button_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+button {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #798379;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.register-text {
+  color: #c0b8b8;
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #00028b;
+  transition: 0.5s ease;
+}
+
+.register-link {
+  text-align: center;
+}
+
+button[type="button"] {
+  width: auto;
+  background-color: #337ab7;
+}
+
+button[type="button"]:hover {
+  background-color: #286090;
+}
+
+@media (max-width: 600px) and (min-width: 200px) {
+
+
+  .burger-menu {
+    display: block;
+    position: relative;
+    left: 120px;
+    bottom: 270px;
+    color: #ffffff;
+    position: relative;
+  }
+
+  .burger {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .bio {
+    display: flex;
+    align-items: center;
+  }
+
+  .mail {
+    position: relative;
+    right:200px;
+  }
+
+  .button_wrapper {
+    position: relative;
+    left:-2px;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+  }
+  .container {
+    text-align: center;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  body {
+    background-color: #2c2c2c;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+  .form-container {
+    padding: 20px;
+    background-color: #333;
+    display: inline-block;
+    border-radius: 10px;
+  }
+
+  input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+  }
+  .button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  input,
+  button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+  }
+
+  button {
+    background-color: #666;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .menu-redaction3 {
+    position: relative;
+    left: 210px;
+    top: 300px;
+    width: 100px;
+  }
+
+  .menu-redaction2 {
+    position: relative;
+    left: 160px;
+    top: 320px;
+  }
+
+  .menu-redaction5 {
+    position: relative;
+    top: 310px;
+    left: 210px;
+    width: 60px;
+  }
+
+  .menu-redaction6 {
+    position: relative;
+    width: 70px;
+    top: 200px;
+    left: 160px;
+  }
+
+  .menu-redaction {
+    position: relative;
+    top: 300px;
+  }
+
+  .contacts__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mail {
+    position: relative;
+    width: 100px;
+    left: 220px;
+    bottom: 200px;
+  }
+
+  .button_wrapper {
+    position: relative;
+    top: 35px;
+    right: 70px;
+  }
+
+  .prev {
+    position: relative;
+    left: 100px;
+  }
+
+  .next {
+    position: relative;
+    left: 200px;
+  }
+
+  .burger::after {
+    content: "";
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+
+  .hamburger-icon {
+    position: relative;
+    display: flex;
+    top: -3px;
+    font-size: 40px;
+    left: 140px;
+    z-index: 999; /* Устанавливаем z-index чтобы иконка была поверх остальных элементов */
+    cursor: pointer;
+    transform: 0.4s;
+  }
+
+  .hamburger-icon::before {
+    top: 25px;
+    rotate: 10px;
+  }
+
+  .hamburger-icon::after {
+    top: 25px;
+    transform: rotate(100deg);
+  }
+
+  .menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #3f443e;
+    text-align: center;
+    padding-top: 50px; /* Добавляем отступ сверху для центрирования ссылок */
+  }
+
+  .menu a {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .menu.active {
+    display: block;
+  }
+
+  .burger.open::after {
+    display: block;
+  }
+
+  .burger .line1,
+  .burger .line2,
+  .burger .line3 {
+    width: 100%;
+    height: 4px;
+    background-color: #000;
+    position: absolute;
+    transition: transform 0.4s;
+  }
+
+  .burger .line1 {
+    top: 0;
+  }
+
+  .burger .line2 {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .burger .line3 {
+    bottom: 0;
+  }
+
+  .burger.open .line1 {
+    transform: rotate(45deg);
+    top: 50%;
+  }
+
+  .burger.open .line2 {
+    transform: rotate(-45deg);
+    top: 50%;
+  }
+
+  .burger.open .line3 {
+    width: 0;
+  }
+
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+  }
+
+  .menu.open {
+    display: block;
+  }
+
+  .burger-menu {
+    position: relative;
+  }
+}

@@ -23,3 +23,20 @@ function showNameField() {
   document.getElementById('registerButton').addEventListener('click', function() {
     window.location.href = 'authentification.html';
 });
+
+
+
+
+function login() {
+  // Здесь нужно добавить код, который проверяет введенные данные и отправляет запрос на сервер для проверки авторизации
+
+  // Предположим, что авторизация прошла успешно
+  // После успешной авторизации перенаправляем пользователя на main-two.html
+  window.location.href = "main-two.html";
+}
+
+function register() {
+  // Здесь нужно добавить код для перенаправления на страницу регистрации
+  // Например:
+  window.location.href = "register.html";
+}

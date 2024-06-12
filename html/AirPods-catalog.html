@@ -14,6 +14,7 @@
                 <a class="menu-text3" href="/html/login.html">Профиль</a>
                 <a class="menu-text3" href="/html/Basket.html">Корзина</a>
                 <a class="menu-text3" href="/html/contacts.html">Контакты</a>
+                <a class="menu-text3" href="/html/main.html">Главная</a>
             </div>
     
         </div> 
@@ -33,27 +34,34 @@
         </div>
 
         <div class="list-items_item container">
-            <div class="listed">
+            <div class="listed3">
                 <div class="item-img"><img class="item-airpods" src="/img/Apple AirPods Pro 2.webp" alt=""></div>
                 <div class="item-img-black">
-                    <button class="airpodsbutton"><img src="/img/add-product.svg" alt="">Добавить в корзину</button>
+                    <h1 class="text-airpods1">Apple AirPods Pro 2</h1>
+                    <p class="text-airpods2">Цена 20990 Р</p>
+                    <button class="airpodsbutton" onclick="addToCart('Apple AirPods Pro 2')"><img src="/img/add-product.svg" alt="">Добавить в корзину</button>
+
                 </div>
             </div>
             <div class="listed">
                 <div class="item-img"><img class="item-airpods" src="/img/Apple AirPods Pro 2.webp" alt=""></div>
                 <div class="item-img-black">
-                    <button class="airpodsbutton"><img src="/img/add-product.svg" alt="">Добавить в корзину</button>
+                    <h2 class="text-airpods2">Apple AirPods Pro 3</h2>
+                    <p class="text-airpods2">Цена: 16990 ₽</p>
+                    <button class="airpodsbutton" onclick="addToCartAndRedirect('Apple AirPods Pro 2')"><img src="/img/add-product.svg" alt="">Добавить в корзину</button>
+
                 </div>
             </div>
             <div class="listed1">
             <img class="item-airpods" src="/img/Apple AirPods 3.png" alt="">
                 <div class="item-img-black">
-                    <button class="airpodsbutton"><img src="/img/add-product.svg" alt="">Добавить в корзину</button>
+                    <button class="airpodsbutton" onclick="addToCart('Apple AirPods Pro 3')"><img src="/img/add-product.svg" alt="">Добавить в корзину</button>
+
                 </div>
                 <div class="listed2">
                     <img class="item-imges" src="/img/Apple AirPods 3.png" alt="">
                     <div class="item-img-black">
-                        <button class="airpodsbutton"><img src="/img/add-product.svg" alt="">Добавить в корзину</button>
+                        <button class="airpodsbutton" onclick="addToCart('Apple AirPods Pro 3')"><img src="/img/add-product.svg" alt="">Добавить в корзину</button>
                     </div>
              </div>
         </div>
@@ -62,32 +70,10 @@
             <a class="menu-text" href="/html/login.html">Профиль</a>
             <a class="menu-text" href="/html/Basket.html">Корзина</a>
             <a class="menu-text" href="/html/contacts.html">Контакты</a>
-        </div> -->
-
-
-        <!-- <div class="airpods__wrapper container">
-            <div class="airpods">
-                <div class="item_img"><img class="item1" src="/img/Apple AirPods Pro 2.webp" alt=""></div>
-                <div class="airpodsnaklon">
-                    <h1 class="text-airpods">Apple AirPods Pro 2</h1>
-                    <p class="text-airpods">Цена 20990 Р</p>
-                    <div class="btn">
-                    <button class="airpodsbutton"><img src="/img/add-product.svg" alt="">Добавить в корзину</button>
-                    </div>  
-                </div>
-            </div> -->
-            <!-- <div class="airpods3">
-                <img class="airpodsimg1" src="/img/Apple AirPods 3.png" alt="">
-                <div class="air">
-                    <h1 class="text-airpods">Apple AirPods Pro 3</h1>
-                    <p class="text-airpods">Цена: 16990 ₽</p>
-                    <div class="btn">
-                      <button class="airpodsbutton"><img src="/img/add-product.svg" alt="">Добавить в корзину</button></div>
-                  </div>
-                </div>
-        </div> -->
-
+        </div> -->\
     </main>
     <script src="/JS/burger.js"></script>
+    <script src="/JS/basket.js"></script>
+    <script src="/JS/AirPods-catalog.js"></script>
 </body>
 </html>

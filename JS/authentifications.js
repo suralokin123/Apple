@@ -81,4 +81,47 @@ function toggleMenu() {
     // Логика для отправки данных формы авторизации на сервер
   }
   
+
+  document.getElementById('loginBtn').addEventListener('click', function() {
+    // Получаем значения полей электронной почты и пароля
+    var email = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
+    
+    // Делаем запрос к серверу для создания профиля пользователя
+    // ...
+    // Предположим, что получили ответ с ID пользователя
+    var userId = "12345"; // Здесь ваш ID пользователя
+    
+    // Перенаправляем пользователя на страницу его профиля с использованием полученного ID
+    window.location.href = "/profile.html?id=" + userId;
+});
   
+
+document.getElementById('authForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  var email = document.getElementById('email').value;
+  var password = document.getElementById('password').value;
+  
+  // Проверяем верность учетных данных (предположим, у нас есть функция для этого checkCredentials)
+  if (checkCredentials(email, password)) {
+      localStorage.setItem('loggedIn', 'true');
+      localStorage.setItem('email', email);
+      // Перенаправляем пользователя на страницу профиля
+      window.location.href = "/main-two.html";
+  } else {
+      alert('Неверные учетные данные');
+  }
+});
+
+function checkCredentials(email, password) {
+  // Здесь производится проверка учетных данных, например, отправка запроса на сервер
+  // и проверка ответа или другие методы проверки
+  // Вернуть true, если учетные данные верны, иначе false
+}
+
+function login() {
+  // Здесь нужно добавить код, который проверяет введенные данные и отправляет запрос на сервер для проверки авторизации
+
+  // После успешной авторизации перенаправляем пользователя на main-two.html
+  window.location.href = "main-two.html";
+}

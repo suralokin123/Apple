@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  body {
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    background-color: black;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .profile__wrapper {
+    display: flex;
+    justify-content:flex-end;
+  }
+
+  .right-side {
+    display: flex;
+    padding:20px 0;
+    flex-direction: column;
+  }
+
+  .main-menu__wrapper {
+    display: flex;
+    justify-content: center;
+   }
+
+   .text-main2  {
+    color: #ffffff;
+   }
+ 
+   .main-tovars {
+     display: flex;
+     gap:20px;
+     padding:20px;
+     flex-wrap: wrap;
+     align-items:center;
+     justify-content: center;
+   }
+
+   .peoplelogo {
+    width:50px;
+    background-color: #ffffff;
+    border-radius:20px;
+   }
+ 
+   .main-text {
+     display: flex;
+     gap:20px;
+     justify-content:center;
+     background-color: #7f837e;
+     width:200px;
+   }
+ 
+   .catalog-main2 {
+     display: flex;
+   text-align: center;
+     color: #ffffff;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+ 
+   .main-text2 {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content:center;
+     gap:40px;
+   }
+ 
+   .main_2 {
+     display: flex;
+     position: relative;
+     left:70px;
+     flex-direction: column;
+     gap:20px;
+   }
+ 
+   /* Обводка главного меню */
+   .main_2 {
+     height:60px;
+     border-radius:10px;
+   }
+     /* Обводка главного меню */
+ 
+   .profile-text {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+   }
+ 
+   .prof {
+     display: flex;
+     flex-direction: column;
+     gap:15px;
+     border: 1px solid white;
+     border-radius:10px;
+     text-align: center;
+   }
+ 
+   .content-description {
+     display: flex;
+     border: 1px solid white;
+     border-radius:10px;
+     text-align: center;
+     width:100px;
+     flex-direction: column;
+     gap:20px;
+     align-items:center;
+   }
+ 
+   .catalog-text {
+     width:80px;
+     border-radius:10px;
+     color: #ffffff;
+     font-weight:900;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   
+   .burger-menu {
+     display: none;
+   }
+   

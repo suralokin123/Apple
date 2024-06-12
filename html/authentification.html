@@ -19,14 +19,27 @@
           </div>
     </div>
     <div class="form-container">
+        <div class="img-photo">
+            <img class="logoimg" src="/img/Logo.jpg" alt="">
+        </div>
+
+        <form id="authForm" action="/main-two.html">
+            <!-- Форма для ввода учетных данных -->
+        </form>
+
         <form class="form-reg" id="registrationForm">
             <a class="auth-text-main" href="/html/main.html">Главная</a>
             <h1>Регистрация</h1>
             <input type="email" id="email" name="email" placeholder="Электронная почта">
             <input type="password" id="password" name="password" placeholder="Пароль">
-            <button class="btn-aut">Войти</button>
-           <button type="button" onclick="showNameField()"> <a href="./login.html"></a>Зарестрироваться</button>
-          </form> 
+            <button class="btn-aut" id="loginBtn">Войти</button>
+            <label class="checkbox-label">
+                <input type="checkbox" id="agreeToTerms">
+                <span class="checkmark"></span>
+                <span class="label-text">Согласен на обработку <a class="privacy-link" href="#">персональных данных</a></span>
+            </label>
+            <button type="button" onclick="showNameField()"> <a href="./login.html">Зарегистрироваться</a></button>
+        </form>
       </div>
     <script src="/JS/form.js"></script>
     <script src="/JS/authentifications.js"></script>

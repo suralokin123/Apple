@@ -8,7 +8,7 @@
   body {
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
-    background-color: #7f837e;
+    background-color: #000000;
   }
   
   img {
@@ -76,6 +76,23 @@
     flex-direction: column;
     gap:15px;
     text-align: center;
+  }
+
+  .charger_text1 {
+    color: #ffffff;
+  }
+
+  .charger-btn1 {
+    height:50px;
+  }
+
+  .chargerbutton {
+    height:50px;
+  }
+
+  .charger_text2 {
+    font-size:30px;
+    color: #ffffff;
   }
 
   .charger3 {

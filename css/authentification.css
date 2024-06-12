@@ -137,8 +137,94 @@ button[type="button"]:hover {
   background-color: #286090;
 }
 
+
+.logoimg {
+  width:80px;
+  border-radius:15px;
+}
+
+.img-photo {
+  display: flex;
+  padding:20px 0;
+  justify-content:flex-start;
+}
+
+
+/* Стилизация кнопки обработка персональных данных */
+.checkbox-label {
+  position: relative;
+  display: block;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #000; /* цвет текста */
+}
+
+.checkbox-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #2196F3; /* цвет галочки */
+  border-radius: 5px;
+}
+
+.checkbox-label input:checked ~ .checkmark:after {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 7px;
+  top: 3px;
+  width: 8px;
+  height: 16px;
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.label-text {
+  margin-left: 30px;
+  color: #2196F3; /* цвет текста */
+}
+
+.privacy-link {
+  color: #2196F3; /* цвет ссылки */
+  text-decoration: underline;
+}
+/* Стилизация кнопки обработка персональных данных */
+
+
+
+
 @media (max-width: 600px) and (min-width: 200px) {
 
+  .checkbox-label {
+    font-size: 16px;
+}
+
+.checkmark {
+    height: 20px;
+    width: 20px;
+}
+
+.label-text {
+    font-size: 14px;
+}
+
+
+
+  .logoimg {
+    width:50px;
+    border-radius:15px;
+  }
 
   .burger-menu {
     display: block;

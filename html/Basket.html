@@ -13,13 +13,19 @@
               <div class="hamburger-icon" onclick="toggleMenu()">&#9776;</div>
               <div class="menu">
                 <a class="menu-redaction" href="./authentification.html">Регистрация</a>
-                <a class="menu-redaction" href="#">Профиль</a>
+                <a class="menu-redaction" href="/html/login.html">Профиль</a>
                 <a class="menu-redaction" href="#">Корзина</a>
                 <a class="menu-redaction" href="./main.html">Главная</a>
               </div>
             </div>
       </div>
 
+      <div class="headers__wrapper container">
+        <div class="text-basket">
+          <a class="headers-text" href="/html/main.html">Главная</a>
+          <a class="headers-text" href="/html/main.html">Каталог</a>  
+        </div>
+      </div>
       <div class="cart-icon container">
         <img class="cart" src="/img/cart-shopping-svgrepo-com.svg" alt="Корзина">
         <span class="cart-desc" id="cartCount"></span> <!-- Здесь будет отображаться количество товаров -->
@@ -29,7 +35,7 @@
       <div class="basket__wrapper container">
         <div class="basket-main" id="basket-main">
           <h1 class="basket-text_main" id="basket-empty-text">Корзина пуста</h1>
-          <button onclick="clearCart()">Очистить корзину</button>
+          <button class="corzina" onclick="clearCart()">Очистить корзину</button>
           <ul class="carted" id="cart-items"></ul>
         </div>
       </div>

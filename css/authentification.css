@@ -153,9 +153,8 @@ button[type="button"]:hover {
 /* Стилизация кнопки обработка персональных данных */
 .checkbox-label {
   position: relative;
-  display: block;
-  padding-left: 35px;
-  margin-bottom: 12px;
+  left:10px;
+  display:block;
   cursor: pointer;
   font-size: 18px;
   color: #000; /* цвет текста */
@@ -206,7 +205,13 @@ button[type="button"]:hover {
 
 @media (max-width: 600px) and (min-width: 200px) {
 
+  .form-reg {
+    
+  }
+
   .checkbox-label {
+    position: relative;
+    left:10px;
     font-size: 16px;
 }
 
@@ -218,7 +223,6 @@ button[type="button"]:hover {
 .label-text {
     font-size: 14px;
 }
-
 
 
   .logoimg {
